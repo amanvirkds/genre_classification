@@ -32,7 +32,7 @@ def go(config: DictConfig):
             parameters={
                 "file_url": config["data"]["file_url"],
                 "artifact_name": "raw_data.parquet",
-                "artifact_type": "raw_data","
+                "artifact_type": "raw_data",
                 "artifact_description": "Data as downloaded"
             },
         )
